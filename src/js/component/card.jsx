@@ -40,7 +40,7 @@ const Card = () => {
             
             <div className="card mb-4">
               <img src={card.img} className="card-img-top" alt={card.title} />
-              <div className="card-body">
+              <div className="card-body text-center">
                 <h5 className="card-title">{card.title}</h5>
                 <p className="card-text">{card.text}</p>
                 <a href="#" className="btn btn-primary">Find Out More!</a>
